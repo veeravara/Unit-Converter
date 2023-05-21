@@ -1,15 +1,20 @@
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 0;
-    margin: 0;
+    margin: auto auto;
     background-color: #040f1d;
+    width: 70%;
+    border-radius: 0px;
 }
 h1{
     text-align: center;
 }
 #rectangle{
-    height: 83px;
-width: 117px;
+    height: 60px;
+width: 100px;
 left: 217px;
 top: 101px;
 border-radius: 5px;
@@ -18,7 +23,7 @@ border-radius: 5px;
 
 button{
 height: 42px;
-width: 117px;
+width: 100px;
 left: 217px;
 top: 209px;
 border-radius: 5px;
